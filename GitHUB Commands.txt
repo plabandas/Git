@@ -1,0 +1,39 @@
+              ***GitHub Commands***
+
+1: Creat Repogitory  : git init   
+
+2: Set user name : git config --global user.name "Plaban"
+
+3: Set gmail name : git config --global user.email "turjoyplaban09@gmail.com"
+
+4: to see user and email name : git config --list
+
+5: what changes in folder(unstased files) : git status
+
+6: staged korar jonno(1ta file ka stage korar jonno) : git add cold.txt
+
+  
+**7: Sob change aksata staged korar jonno :: git add .
+  7.1: Sob change aksata staged korar jonno :: git add --all   
+
+
+**8: Commit korar jonno : git commit -m "Commit Message(Like: chokolet added)"
+8.1: Commit korar jonno : git commit
+                     (then: enter> press I from keybord>
+                            Enter Commit Message> Press esc button > 
+                            write in bottom :x and hit enter      )
+
+**9: sobgulo commit dakar jonno : git log --oneline
+9.1: sobgulo commit dakar jonno : git log
+
+10: jakono commit a fifa jata : get checkout tar_por_ ID dita hoba ,,,
+                                     ja commit afira jata cascci
+
+11: main baranch master a fira jata : git checkout master
+
+12: last commit ar under a leatest ja change kora hoyacha sata dakar jonno : git diff
+12.1 : Staged kora hota gala 12:  last commit ar under a leatest ja change kora hoyacha sata dakar jonno : git diff --staged
+
+13: kono akti commit a ki ki change hoyacilo dakar jonno : git show tar_por_ ID dita hoba ,,,
+                                     ja commit ar change gulo dakta cascci
+
