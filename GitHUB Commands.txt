@@ -2,7 +2,7 @@
 
 1: Creat Repogitory  : git init   
 
-2: Set user name : git config --global user.name "Plaban"
+2: Set user name : git config --global user.name "plabandas"
 
 3: Set gmail name : git config --global user.email "turjoyplaban09@gmail.com"
 
@@ -26,7 +26,7 @@
 **9: sobgulo commit dakar jonno : git log --oneline
 9.1: sobgulo commit dakar jonno : git log
 
-10: jakono commit a fifa jata : get checkout tar_por_ ID dita hoba ,,,
+10: jakono commit a fira jata : get checkout tar_por_ ID dita hoba ,,,
                                      ja commit afira jata cascci
 
 11: main baranch master a fira jata : git checkout master
@@ -36,4 +36,10 @@
 
 13: kono akti commit a ki ki change hoyacilo dakar jonno : git show tar_por_ ID dita hoba ,,,
                                      ja commit ar change gulo dakta cascci
+
+
+
+
+14. Branch Creat kora : git branch plaban; Plaban name akta branch toiri holo
+15. push the branch to git hub : git push origin planan; plaban namer branch ta github a cola galo
 
