@@ -41,5 +41,5 @@
 
 
 14. Branch Creat kora : git branch plaban; Plaban name akta branch toiri holo
-15. push the branch to git hub : git push origin planan; plaban namer branch ta github a cola galo
-
+15. push the branch to git hub : git push origin plaban; plaban namer branch ta github a cola galo
+16. pull kola github to working directory : git pull 
