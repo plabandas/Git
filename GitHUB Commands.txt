@@ -1,6 +1,20 @@
               ***GitHub Commands***
 
 1: Creat Repogitory  : git init   
+2. Git thake kono file pc te ante :::::: git clone LINK ,,(Link ta githib thake copy korta hoba)
+3: what changes in folder(unstased files) : git status
+4: Sob change aksata staged korar jonno :: git add .
+5: Commit korar jonno : git commit -m "Commit Message(Like: chokolet added)"
+
+6. Branch Creat kora : git branch plaban; Plaban name akta branch toiri holo
+7. push the branch to git hub : git push origin plaban; plaban namer branch ta github a cola galo
+8. pull kola github to working directory : git pull 
+9: main baranch master or onno branch a fira jata : git checkout master
+
+
+
+
+
 
 2: Set user name : git config --global user.name "plabandas"
 
@@ -8,16 +22,10 @@
 
 4: to see user and email name : git config --list
 
-5: what changes in folder(unstased files) : git status
-
 6: staged korar jonno(1ta file ka stage korar jonno) : git add cold.txt
 
-  
-**7: Sob change aksata staged korar jonno :: git add .
-  7.1: Sob change aksata staged korar jonno :: git add --all   
+7.1: Sob change aksata staged korar jonno :: git add --all   
 
-
-**8: Commit korar jonno : git commit -m "Commit Message(Like: chokolet added)"
 8.1: Commit korar jonno : git commit
                      (then: enter> press I from keybord>
                             Enter Commit Message> Press esc button > 
@@ -29,8 +37,6 @@
 10: jakono commit a fira jata : get checkout tar_por_ ID dita hoba ,,,
                                      ja commit afira jata cascci
 
-11: main baranch master a fira jata : git checkout master
-
 12: last commit ar under a leatest ja change kora hoyacha sata dakar jonno : git diff
 12.1 : Staged kora hota gala 12:  last commit ar under a leatest ja change kora hoyacha sata dakar jonno : git diff --staged
 
@@ -40,8 +46,5 @@
 
 
 
-14. Branch Creat kora : git branch plaban; Plaban name akta branch toiri holo
-15. push the branch to git hub : git push origin plaban; plaban namer branch ta github a cola galo
-16. pull kola github to working directory : git pull 
 
-17. Git thake kono file pc te ante :::::: git clone LINK ,,(Link ta githib thake copy korta hoba)
+
