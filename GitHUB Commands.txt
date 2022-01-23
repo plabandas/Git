@@ -2,6 +2,7 @@
 
 1: Creat Repogitory  : git init   
 2. Git thake kono file pc te ante :::::: git clone LINK ,,(Link ta githib thake copy korta hoba)
+2.1. Pc er kono file git er sathe connect hote hola ::: git remote add origin https://github.com/plabandas/Git-Commands.git
 3: what changes in folder(unstased files) : git status
 4: Sob change aksata staged korar jonno :: git add .
 5: Commit korar jonno : git commit -m "Commit Message(Like: chokolet added)"
@@ -10,7 +11,7 @@
 7. push the branch to git hub : git push origin plaban; plaban namer branch ta github a cola galo
 8. pull kola github to working directory : git pull 
 9: main baranch master or onno branch a fira jata : git checkout master
-
+10. merge korar jonno , যেখানে কোড  নিয়ে আসব সেখানে থাকতে  হবে ::Command:: git merge development -m "Merging on main with development branch"
 
 
 
