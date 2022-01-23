@@ -12,7 +12,7 @@
 8. pull kola github to working directory : git pull 
 9: main baranch master or onno branch a fira jata : git checkout master
 10. merge korar jonno , যেখানে কোড  নিয়ে আসব সেখানে থাকতে  হবে ::Command:: git merge development -m "Merging on main with development branch"
-
+11. Git branch delete korar jonno ::::: git branch -d plaban :::: plaban namer branch ta delete hoye jabe
 
 
 
