@@ -1,4 +1,4 @@
-              ***GitHub Commands***
+              *****GitHub Commands*****
 
 1: Creat Repogitory  : git init   
 2. Git thake kono file pc te ante :::::: git clone LINK ,,(Link ta githib thake copy korta hoba)
