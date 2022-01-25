@@ -43,7 +43,7 @@
 12.1 : Staged kora hota gala 12:  last commit ar under a leatest ja change kora hoyacha sata dakar jonno : git diff --staged
 
 13: kono akti commit a ki ki change hoyacilo dakar jonno : git show tar_por_ ID dita hoba ,,,
-                                     ja commit ar change gulo dakta cascci
+                                     ja commit ar change gulo dakta cascci  ..
 
 
 
