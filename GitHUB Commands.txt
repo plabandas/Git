@@ -45,7 +45,8 @@
 
 13: kono akti commit a ki ki change hoyacilo dakar jonno : git show tar_por_ ID dita hoba ,,,
                                      ja commit ar change gulo dakta cascci  ..
-
+                                     
+14: What changes with the leatest checking command :::::::::::: git diff ::::: then press enter
 
 
 
