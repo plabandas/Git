@@ -16,6 +16,8 @@
 12. নির্দিষ্ট কোন কমিটি ফিরে যেতে এই কমান্ড দিতে হবে :: git fetch origin 810ba95f07311d49c18760820b4829384199af31   ::: last a ata hola SHA Number
     এটার পর লিখতে হবে :: git checkout "git checkout "FETCH_HEAD" :: ওখানে কিন্তু কোটেশন দিতে হবে
 13. Previous commit mosar jonno :: git revert HEAD :: Ei command dita hoba :: er por :: git push :: command dita hoba
+14. Long path গুলা ঠিক করতে এই কমান্ড দিতে হবে :: Run Git Bash as administrator ->> then ->> git config --system core.longpaths true
+    ----------  if it is not working the use --->>   git config --global core.longpaths true
 
 
 
