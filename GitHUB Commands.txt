@@ -1,7 +1,7 @@
               ***GitHub Commands***
 
 1: Creat Repogitory  : git init   
-2. Git thake kono file pc te ante :::::: git clone LINK ,,(Link ta githib thake copy korta hoba)
+2. Git thake kono file pc te ante :::::: git clone LINK ,,(Link ta githib thake copy korta hoba) ::: git clone https://github.com/plabandas/kuet_2k20.git
 2.1. Pc er kono file git er sathe connect hote hola ::: git remote add origin https://github.com/plabandas/Git-Commands.git
 3: what changes in folder(unstased files) : git status
 4: Sob change aksata staged korar jonno :: git add .
