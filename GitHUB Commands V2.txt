@@ -28,3 +28,13 @@ If (END) comes -> press Q + ENTER -> Backed to Terminal
 6. Difference between Latest Commit and Staged Files : git diff -staged
 7. All additions are untracked/unstaged occurred after latest commit : git reset     or    git reset --hard       (Using Hard is not recommended)
 8. To delete specific file : git rm file_name_with_extention   ->    If I want to do that BY force : git rm file_name_with_extention -f
+
+//Advance Play with Files Before Uploading To Github
+1. Suppose I want for some files or folder that git will ignore  -> Makes Coding Faster -> 
+       step 1 : touch .gitignore + ENTER   ->> This file contails the names_with_extention which are ignored by Git ->> Like : about.txt; *.jpeg; /img/bangla/
+       step 2 : git add -A + ENTER
+       step 3 : git commit -m "Added Gitignore" + ENTER
+
+
+
+
