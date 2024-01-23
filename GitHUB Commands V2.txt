@@ -1,6 +1,9 @@
 New Commands Are Here : 
 
-If (END) comes -> press Q + ENTER -> Backed to Terminal 
+Important:
+1. If (END) comes -> press Q + ENTER -> Backed to Terminal 
+2. Taken Git Repositories to my machine -->> git clone repository_https_link :: git clone https://github.com/plabandas/kuet_2k20.git
+
 
 // Setting Developer Information
 1. git config --global user.name Plaban
@@ -18,6 +21,7 @@ If (END) comes -> press Q + ENTER -> Backed to Terminal
 5. For All Untracked to Stage :    git add -A     or    git add .  
 6. For Commit : git commit -m "Your_Commit_Details"
 7. For Commit with add : git commit -am "Your_Commit_Details"  ->> It works ONLY on Modified Files
+8. To delete Previous commit : git revert HEAD  -->> Then Give This Command : git push
 
 //Files Manage Before Uploading To Github -> Actually takes Data form .git Folder
 1. Suppose I have commited BUT My friend have deleted or modified the files. So To get Back :  git checkout file_name_with_extention
@@ -34,6 +38,33 @@ If (END) comes -> press Q + ENTER -> Backed to Terminal
        step 1 : touch .gitignore + ENTER   ->> This file contails the names_with_extention which are ignored by Git ->> Like : about.txt; *.jpeg; /img/bangla/
        step 2 : git add -A + ENTER
        step 3 : git commit -m "Added Gitignore" + ENTER
+2. To go to specific commit : get checkout commit_unique_id_of_target_commit -> Here Last ID is SHA Number -->
+   then Command : git checkout "FETCH_HEAD"    ->>   Here Cotation is needed
+3. Long path Problem Solving setps :: Run Git Bash as administrator ->> then Command : git config --system core.longpaths true
+    ----------  if it is not working then use --->>   git config --global core.longpaths true
+
+
+//Knowing About Branch
+1. To see all branch : git branch
+2. To create new branch and staying previous branch : git branch name_of_branch
+3. To create new branch and switched to new branch : git checkout -b name_of_branch
+4. For Switching Intra Branch : git checkout branch_name  -->> Commit is very Important Before Checkout BECAUSE it detect branch at that time.
+5. For deleting the branch : git branch -d branch_name
+
+
+//Merging
+1. Suppose mini Branch merged with master Branch 
+     step 1 : switched to master branch (where will be merged)
+     step 2 : git merge child_branch_name -m "merge_comment"   -> If arise no conflict then ok ... If conflict comes go to next step
+     step 3 : You can directly edit the conflict file documents.. Recomended By Me : Use VS Code
+     step 4 : In VS Code -> choose proper option at conflict page -> SAVE it -> Stage and Commit It ---> Conflict is RESOLVED
+
+
+//Git-Hub
+1. My project connecting to GitHub : git remote add origin https://github.com/plabandas/Git-Commands.git
+2. To see the links : git remote -v
+3. Sending All Commits to GitHub : git push -u origin branch_name
+4. Updated Remote Repo to My Local Disk : git pull
 
 
 
