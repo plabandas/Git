@@ -1,1 +1,30 @@
 New Commands Are Here : 
+
+If (END) comes -> press Q + ENTER -> Backed to Terminal 
+
+// Setting Developer Information
+1. git config --global user.name Plaban
+2. git config --global user.email "turjoyplaban09@gmail.com"
+->>> To check ->> git config --global user.name + ENTER
+->>> To check ->> git config --global user.email + ENTER
+3. To Create Files using Bash :  touch file_name_with_extention + ENTER
+
+
+// I told git to track changes of my folder
+1. git init
+2. ->>> To check Files In That Folder ->> ls + ENTER
+3. ->>> To check status of Files ->> git status + ENTER  
+4. For Untracked to Stage : git add file_name_with_extention
+5. For All Untracked to Stage :    git add -A     or    git add .  
+6. For Commit : git commit -m "Your_Commit_Details"
+7. For Commit with add : git commit -am "Your_Commit_Details"  ->> It works ONLY on Modified Files
+
+//Files Manage Before Uploading To Github -> Actually takes Data form .git Folder
+1. Suppose I have commited BUT My friend have deleted or modified the files. So To get Back :  git checkout file_name_with_extention
+2. To get all files in terms of latest commit : git checkout -f 
+3. To See All Commits with Details : git log
+4. To See Last 3 Commits with Difference : git log -p -3   
+5. Difference between Local and Staged Files : git diff
+6. Difference between Latest Commit and Staged Files : git diff -staged
+7. All additions are untracked/unstaged occurred after latest commit : git reset     or    git reset --hard       (Using Hard is not recommended)
+8. To delete specific file : git rm file_name_with_extention   ->    If I want to do that BY force : git rm file_name_with_extention -f
